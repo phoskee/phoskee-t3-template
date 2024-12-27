@@ -1,29 +1,74 @@
-# Create T3 App
+# 🚀 Phoskee T3 Template
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+Un template moderno e performante basato su [T3 Stack](https://create.t3.gg/) con componenti UI pre-configurati e best practices integrate.
 
-## What's next? How do I make an app with this?
+![Next.js](https://img.shields.io/badge/Next.js-13%2B-black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
+![Tailwind](https://img.shields.io/badge/Tailwind-3.0-38bdf8)
+![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-Latest-black)
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+## ✨ Caratteristiche Principali
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+- 🎨 **Sistema Temi Avanzato**
+  - Tema chiaro/scuro automatico
+  - Transizioni fluide
+  - Personalizzabile via CSS variables
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+- 🧱 **Componenti Pre-configurati**
+  - Interfaccia moderna con shadcn/ui
+  - Sistema di notifiche con Sonner
+  - Layout responsive e accessibile
 
-## Learn More
+- 🛠 **Stack Tecnologico**
+  - Next.js 13+ con App Router
+  - TypeScript per type safety
+  - Tailwind CSS per lo styling
+  - Prisma per il database
+  - tRPC per le API type-safe
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+## 🎨 Personalizzazione Temi
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+Il template utilizza CSS variables per una facile personalizzazione dei temi. Modifica i colori in `src/styles/globals.css`.
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+## 🔧 Script Disponibili
 
-## How do I deploy this?
+- `npm run dev` - Avvia il server di sviluppo
+- `npm run build` - Crea la build di produzione
+- `npm run start` - Avvia la build di produzione
+- `npm run lint` - Esegue il linting del codice
+- `npm run format:write` - Formatta il codice con Prettier
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+## 📚 Risorse Utili
+
+- [Documentazione T3 Stack](https://create.t3.gg/)
+- [Next.js Docs](https://nextjs.org/docs)
+- [shadcn/ui Components](https://ui.shadcn.com)
+- [Tailwind CSS](https://tailwindcss.com/docs)
+
+## 🤝 Contribuisci
+
+Le pull request sono benvenute! Per modifiche importanti, apri prima una issue per discutere le modifiche proposte.
+
+## 📄 Licenza
+
+Distribuito sotto licenza MIT. Vedi `LICENSE` per maggiori informazioni.
+
+---
+
+Creato con ❤️ usando [T3 Stack](https://create.t3.gg/)
+
+## 🚀 Inizia Subito
+
+1. **Clona il Template**
+    - `git clone https://github.com/tuouser/phoskee-t3-template.git`
+
+2. **Installa le Dipendenze**
+    - `npm install`
+
+3. **Avvia il Server**
+    - `npm run dev`
+
+4. **Configura il Database**
+    - `npx prisma migrate dev`
+
+
