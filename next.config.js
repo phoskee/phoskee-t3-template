@@ -15,6 +15,7 @@ const config = {
   env: {
     DATABASE_URL: process.env.DATABASE_URL,
   },
+  output: "export",
 };
 
 export default config;
