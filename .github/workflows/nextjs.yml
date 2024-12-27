@@ -76,7 +76,11 @@ jobs:
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build with Next.js
-        run: ${{ steps.detect-package-manager.outputs.runner }} next build
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: |
+          echo "DATABASE_URL: ${{ env.DATABASE_URL }}"
+          ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Prisma
         run: prisma generate
       - name: Upload artifact
