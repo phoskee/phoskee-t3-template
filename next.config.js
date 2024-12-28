@@ -12,10 +12,6 @@ const config = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  env: {
-    DATABASE_URL: process.env.DATABASE_URL,
-  },
-  output: "export",
 };
 
 export default config;
