@@ -65,10 +65,19 @@ Creato con ❤️ usando [T3 Stack](https://create.t3.gg/)
 2. **Installa le Dipendenze**
     - `npm install`
 
-3. **Avvia il Server**
-    - `npm run dev`
+3. **Configura le Variabili d'Ambiente**
+    - `cp .env.example .env`
+    - Modifica le variabili nel file `.env`
+
+4. **Configura il Database**
+    - `npx @better-auth/cli generate`
 
 4. **Configura il Database**
     - `npx prisma migrate dev`
+
+4. **Avvia il Server**
+    - `npm run dev`
+
+
 
 
