@@ -19,9 +19,7 @@ export const auth = betterAuth({
   },
   plugins: [
     username(),
-    admin({
-      adminRole: ["admin", "superAdmin"],
-    }),
+    admin(),
     nextCookies(),
   ],
   user: {
@@ -32,6 +30,12 @@ export const auth = betterAuth({
       role: {
         type: "string",
       },
+    },
+  },
+  session: {
+    cookieCache: {
+      enabled: true,
+      maxAge: 5 * 60, // Cache duration in seconds
     },
   },
 });
